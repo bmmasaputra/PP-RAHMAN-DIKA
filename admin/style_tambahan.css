@@ -1,0 +1,44 @@
+/* Card Container agar lebih lebar */
+.card {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+  }
+  
+  /* Gambar card */
+  .card-img-top {
+    max-height: 400px;
+    object-fit: cover;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+  
+  /* Card Body */
+  .card-body {
+    padding: 2rem;
+    font-size: 1.2rem;
+  }
+  
+  /* Judul utama */
+  .card-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Badge status */
+  .badge-success, .badge-danger {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+  }
+  
+  /* Teks paragraf deskripsi */
+  .card-body p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+  }
+  
