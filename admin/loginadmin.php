@@ -8,7 +8,6 @@
   <link rel="shortcut icon" href="images/kalteng.png">
 </head>
 <body>
-  <h1>Fitru baru</h1>
   <div class="login-container">
     <div class="login-card">
       <img src="images/kalteng.png" alt="Logo" class="login-logo">
