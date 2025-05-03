@@ -74,6 +74,7 @@ $data = mysqli_fetch_assoc($result);
                   <img src="data:image/jpeg;base64,<?= base64_encode($data['gambar']) ?>" class="card-img-top" alt="Gambar Bantuan">
                   <div class="card-body">
                     <h3 class="card-title"><?= $data['nama_bantuan'] ?></h3>
+                    <p><strong>ID Bantuan: </strong><?= $data['id_bantuan_sosial'] ?></p>
                     <p><strong>Jenis Bantuan:</strong> <?= $data['jenis_bantuan'] ?></p>
                     <p><strong>Kota/Kabupaten:</strong> <?= $data['nama_kota'] ?></p>
                     <p><strong>Tanggal Pelaksanaan:</strong> <?= $data['tanggal_pelaksanaan'] ?></p>
